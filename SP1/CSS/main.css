@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+}
+.img{
+	width: 100%;
+}
+.area{
+	height: 100vh;
+	background-image:url(../images/a.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.area .text{
+	font-size: 200px;
+	font-weight: 900;
+	color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+	  .area{
+    	height: 200px;
+    }
+    .area1 .text{
+    	font-size: 72px;
+    }
+}
+
+
+  

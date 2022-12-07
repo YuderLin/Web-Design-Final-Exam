@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+}
+.area{
+  width: 100vw;
+  min-height: 100vh;
+}
+.header{
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+}
+.mark{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.marks{
+  width: 120px;
+  height: 110px;
+}
+.news:hover{
+  background-color: #9fe7fc;
+}
+.news{
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+  list-style:none;
+  text-decoration: none;
+  display:flex;
+  flex-direction:column;
+}
+.newbg{
+  opacity: 90%;
+  width: 70px;
+  height:40px;
+  margin: auto;
+}
+.new{
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.drinks:hover{
+  background-color: #9fe7fc;
+}
+.drinks{
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+  list-style:none;
+  text-decoration: none;
+  display:flex;
+  flex-direction:column;
+}
+.cup{
+  opacity: 90%;
+  width: 100px;
+  height:40px;
+  margin: auto;
+}
+.drink{
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fruits:hover{
+  background-color: #9fe7fc;
+}
+.fruits{
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+  list-style:none;
+  text-decoration: none;
+  display:flex;
+  flex-direction:column;
+}
+.fruiticon{
+  opacity: 90%;
+  width: 70px;
+  height:40px;
+  margin: auto;
+}
+.fruit{
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.farmers:hover{
+  background-color: #9fe7fc;
+}
+.farmers{
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+  list-style:none;
+  text-decoration: none;
+  display:flex;
+  flex-direction:column;
+}
+.farmericon{
+  opacity: 90%;
+  width: 70px;
+  height:60px;
+  margin: auto;
+}
+.farmer{
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.abouts:hover{
+  background-color: #9fe7fc;
+}
+.abouts{
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+  list-style:none;
+  text-decoration: none;
+  display:flex;
+  flex-direction:column;
+}
+.abouticon{
+  opacity: 90%;
+  width: 70px;
+  height:40px;
+  margin: auto;
+}
+.about{
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.shops:hover{
+  background-color: #9fe7fc;
+}
+.shops{
+  margin-top: 20px;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+  list-style:none;
+  text-decoration: none;
+  display:flex;
+  flex-direction:column;
+}
+.shopicon{
+  opacity: 90%;
+  width: 70px;
+  height:40px;
+  margin: auto;
+}
+.shop{
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+}
+.login{
+  margin-top: 20px;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+}
+.register{
+  margin-top: 35px;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+}
+.content{
+  position: absolute;
+  width: 1280px;
+  max-width: 1000px;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.title{
+  font-size: 70px;
+  font-weight:1000;
+  color: #fff;
+  margin-top: 200px;
+  height: 85px;
+  margin-bottom: 85px;
+  text-align: center;
+  font-family: 'Single Day', cursive;
+  text-shadow: 0.1em 0.1em 0.2em #f5b3cd;
+}
+.title:hover{
+  font-size: 80px;
+  height: 100px;
+  margin-bottom:70px ;
+  text-shadow: 0.2em 0.2em 0.35em gray;
+}
+.title-2{
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Single Day', cursive;
+  opacity: 85%;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.area1{
+  background-image: url(https://d1ralsognjng37.cloudfront.net/ec4cb2d8-ef87-4b63-b3e8-021390fcc58c.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+.area2{
+  background-image: url(https://doqvf81n9htmm.cloudfront.net/data/veronicali_132/605/shutterstock_721170481.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  color: #000;
+}
+.box{
+  display:flex;
+  justify-content:center;
+  margin-top: 100px;
+}
+.a2c{
+  width: 70%;
+  height: 450px;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  background-color: #469e68;
+  overflow-y: scroll;
+}
+.wa2-1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: #50effa;
+}
+.wa2-2{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #50effa;
+}
+.area3{
+  background-image: url(https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: right bottom;
+}
+.area3 .content{
+  background-color: rgba(255,255,255,0.2);
+}
+.juiceway{
+  text-align: center;
+  font-size: 60px;
+  color:pink;
+  width: 300px;
+  font-weight: 700;
+  background-color: green;
+  margin-left: 320px;
+}
+.appletext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+  
+}
+.apple{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.apple:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+  
+}
+.applecom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 150px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+.grape:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.grape{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.grapetext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+}
+.grapecom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 460px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+
+.banana:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.banana{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.bananatext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:105px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 12px;
+}
+.bananacom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 100px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+
+
+.grava:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.grava{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.gravatext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+  text-align: center;
+}
+.gravacom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 350px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+
+.watermelon:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.watermelon{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.watermelontext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+  text-align: center;
+}
+.watermeloncom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 130px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+
+.cranberry:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.cranberry{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.cranberrytext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:105px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 12px;
+  text-align: center;
+}
+.cranberrycom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 420px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+.lemon:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.lemon{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.lemontext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+  text-align: center;
+}
+.lemoncom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 130px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+.kiwi:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.kiwi{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.kiwitext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:105px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 12px;
+  text-align: center;
+}
+.kiwicom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 420px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+.mango:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.mango{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.mangotext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+  text-align: center;
+}
+.mangocom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 110px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+.grapefruit:hover{
+  opacity:95%;
+  border:2px solid blue;
+  margin-bottom: 6px;
+}
+.grapefruit{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.grapefruittext{
+  background-color: #fff;
+  font-family: 'Single Day', cursive;
+  padding: 10px;
+  width:100px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ed9600;
+  margin-top: 0;
+  margin-left: 18px;
+  text-align: center;
+}
+.grapefruitcom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Single Day', cursive;
+  margin-left: 250px;
+  margin-top: 380px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000;
+  text-shadow: 0.3em 0.2em 0.4em #000;
+}
+
+code{
+  background-color: #04377a;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+code span{
+  background-color: rgba(255,255,255,0.2);
+  padding: 5px;
+  color: #fff;
+  border-radius: 10px;
+}
+.footer{
+  position: absolute;
+  font-size: 35px;
+  font-weight: 600;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footertex{
+  font-size: 20px;
+}

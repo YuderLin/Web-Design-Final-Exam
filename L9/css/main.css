@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+	background-color:#323335 ;
+}
+.button{
+  font-family: 'AnTon', cursive;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.a1{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #000;
+	text-decoration: none;
+}
+.a2{
+	color: #000;
+	text-decoration: none;
+}
+
+.button:hover{
+	font-size: 40px;
+	width: 180px;
+	height: 60px;
+	line-height: 60px;
+	/*transform: scale(1.15);*/
+	background-color: #5abf0d;
+	border:solid  5px  #fff;
+}
+.box{
+	position: relative;
+	width: 550px;
+	height: 500px;
+	background-color: #000;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	opacity: 0.5;
+	transform: translate(-200px, 0);
+	transition: all 0.5s;
+}
+.box .title1{
+	font-size: 36px;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	bottom: -200px;
+	right: 10px;
+	transition: all 0.5s;
+	transition-delay: 0.5s;
+}
+.box .title2{
+	font-size: 32px;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	bottom:-200px;
+	right: 10px;
+	transition: all 0.5s;
+
+}
+.box:hover .title1{
+    bottom: 10px;
+}
+.box:hover .title2{
+    bottom: 70px;
+}
+.box:hover img{
+   opacity: 1;
+   transform: translate(0,0);
+}

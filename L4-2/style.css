@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+/*   font-family: 'Permanent Marker', cursive;
+font-family: 'Shadows Into Light', cursive; */
+}
+.big{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  color: #FFF;
+}
+.row{
+  height: 100vh;
+  font-size: 0;
+}
+.col{
+  width: calc(100% / 6);
+  height: 100%;
+  display: inline-block;
+  font-size: initial;
+  vertical-align: top;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  line-height: 100vh;
+}
+.col1{
+  background-color: #80aaed;
+}
+.col2{
+  background-color: #7de5f5;
+}
+.col3{
+  background-color: #92f7a5;
+}
+.col4{
+  background-color: #b0f090;
+}
+.col5{
+  background-color: #c4eba9;
+}
+.col6{
+  background-color: #c8f0b4;
+}
+.col:hover .big{
+  color: red;
+}

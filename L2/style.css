@@ -1,0 +1,219 @@
+.picture{
+  display: inline-block; 
+  outline :1px solid gray ;
+  width: 300px;
+  height: 200px;
+}
+.cup{
+  width: 200px;
+  height: 150px;
+  background-color: #b1aaa5;
+  border-radius: 0 0 30px 30px;
+  margin-left: 30px;
+  position: absolute;
+}
+.handle{
+  width: 100px;
+  height: 100px;
+  background-color: #b1aaa5;
+  border-radius: 0 30px 30px 0  ; 
+  position: absolute;
+  margin-left: 180px;
+}
+.handle2{
+  width: 80px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  margin-top: 15px;
+  position: absolute
+}
+.plate{
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  background-color: #b1aaa5;
+  margin-top:150px ;
+  margin-left: 10px;
+  border-radius: 0 0 100px 100px;
+}
+.plate2{
+   position: absolute;
+  width: 200px;
+  height: 10px;
+  background-color: #b1aaa5;
+  margin-top:155px ;
+  margin-left:30px;
+  border-radius: 0 0 50px 50px;
+}
+.name{
+/*   outline: 1px solid red; */
+  position: absolute;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 165px;
+  text-align: center;
+}
+.coffee1{
+  position: absolute;
+  background-color: #6e4a30;
+  width: 180px;
+  height: 35px;
+  border-radius: 0 0 30px 30px;
+  text-align: center;
+  margin-top: 110px;
+  margin-left: 10px;
+  color:#fff;
+}
+.milk{
+  position: absolute;
+  background-color: #ccebed;
+  width: 180px;
+  height: 40px;
+  margin-top: 70px;
+  margin-left: 10px;
+  text-align: center;
+}
+.water{
+  position: absolute;
+  background-color: #428df5;
+  width: 180px;
+  height:70px;
+  margin-top: 40px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+.milk2{
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  background-color:#fffffa;
+  margin-left: 10px;
+  margin-top: 55px;
+  text-align: center; 
+}
+.milk3{
+  position: absolute;
+  background-color: #ccebed;
+  width: 180px;
+  height: 35px;
+  margin-top:20px;
+  margin-left: 10px;
+  text-align: center;
+}
+.cream{
+  position: absolute;
+  background-color: #eda41c;
+  width: 180px;
+  height: 25px;
+  margin-top:85px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+.milk4{
+  position: absolute;
+  background-color: #1fced1;
+  width: 180px;
+  height: 45px;
+  margin-left: 10px;
+  margin-top: 65px;
+}
+.milk5{
+  position: absolute;
+  background-color: #ccebed;
+  width: 180px;
+  height: 35px;
+  margin-top:30px;
+  margin-left: 10px;
+  text-align: center;
+}
+.milk6{
+  position: absolute;
+  width: 180px;
+  height: 45px;
+  background-color:#fffffa;
+  margin-left: 10px;
+  margin-top: 65px;
+  text-align: center; 
+}
+.cream2{
+  position: absolute;
+  background-color: #eda41c;
+  width: 180px;
+  height: 25px;
+  margin-top:20px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+.chocolate{
+  position: absolute;
+  background-color: #662e08;
+  color: white;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  margin-top: 85px;
+  margin-left: 10px;
+}
+.milk7{
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  background-color:#fffffa;
+  margin-left: 10px;
+  margin-top: 45px;
+  text-align: center; 
+}
+.milk7sugar{
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  background-color: #e067ca;
+  margin-left:10px ;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+.caramel{
+  width: 180px;
+  height: 20px;
+  position: absolute;
+  background-color:#9F5000;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+.whisky{
+  position: absolute;
+  background-color: #a30363;
+  color: #fff;
+  width: 180px;
+  height: 25px;
+  margin-top: 85px;
+  margin-left: 10px;
+  text-align: center;
+}
+.cream3{
+  position: absolute;
+  background-color: #eda41c;
+  width: 180px;
+  height: 25px;
+  margin-top:60px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}
+.cream4{
+  position: absolute;
+  background-color: #eda41c;
+  width: 180px;
+  height: 25px;
+  margin-top:60px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+}

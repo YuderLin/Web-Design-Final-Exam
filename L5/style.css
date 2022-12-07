@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.area{
+  min-height: 100vh;
+  background-size: cover;
+}
+.area1{
+  background-image: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center center;
+  background-attachment: fixed;
+}
+.area2{
+  background-image: url(https://images.pexels.com/photos/1509582/pexels-photo-1509582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.area2-1{
+  background-image: url(http://idben.tw-no1.com/ntuewd/images/bear1.png),url(https://idben.tw-no1.com/ntuewd/images/dlg.png);
+  background-size: 170px,300px;
+  background-repeat: no-repeat;
+  background-position: right bottom,calc(100% - 150px) 70%;
+}
+.area3{
+  background-image: url(https://images.pexels.com/photos/839462/pexels-photo-839462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+}
+.pdimg{
+  width: 300px;
+  height: 300px;
+  object-fit:cover;
+  object-position:right bottome;
+  border-radius: 10px;
+}
+.pdimg:hover{
+  width: 320px;
+  height: 320px;
+}
+.area4{
+  background-image: url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center center;
+}
+.area5{
+  background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center center;
+}
+.area6{
+  background-image: url(https://images.pexels.com/photos/2170473/pexels-photo-2170473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center center;
+    padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.artical1{
+  width: 100%;
+  min-height: calc(100vh - 40px);
+  background-image: url(https://dsa.ntue.edu.tw/epaper/images/bodybg.gif);
+  background-size: 200px 200px;
+}

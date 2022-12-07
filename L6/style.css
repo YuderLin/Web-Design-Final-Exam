@@ -1,0 +1,45 @@
+.title1{
+  color: #2a1c85;
+  font-size: 35px;
+  font-weight: 700;
+}
+.title2{
+  font-size: 20px;
+  margin-left: 300px;
+  color: #892ae8;
+  font-weight: 700;
+}
+.picture{
+  display:flex;
+}
+.gift{
+  width: 30px;
+  height: 30px;
+  margin-left: 450px;
+}
+.tree{
+  width: 30px;
+  height: 30px;
+}
+.bell{
+   width: 30px;
+  height: 30px;
+}
+ul{
+  margin-top: 10px;
+  list-style:none;
+  background-color: #ffe7c2;
+  padding: 4px;
+}
+li{
+  background-color: #fcf095;
+  margin-bottom: 4px;
+}
+li:nth-child(odd){
+  background-color: #fff;
+}
+.fa-check-square-o{
+  font-size: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+}

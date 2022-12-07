@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+.poster{
+  position: absolute;
+  outline: 1px solid #000;
+  width: 450px;
+  height: 695px;
+  font-family: 'Permanent Marker', cursive;
+  overflow: hidden;
+}
+.img{
+  position: absolute;
+  opacity: 0.1;
+}
+.red1{
+  position: absolute;
+  width: 423px;
+  height: 85px;
+  background-color: #B9C11C;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 145px;
+}
+.red2{
+  position: absolute;
+  transform-origin: left top;
+  width: 610px;
+  height: 95px;
+  background-color:#C3A71C;
+  transform: rotate(45deg);
+  margin-top: 265px;
+}
+.black{
+  position: absolute;
+  background-color: #72B21A;
+  width: 763px;
+  height: 125px;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-top:558px;
+}
+.text1{
+  position: absolute;
+  color: pink;
+  font-size: 70px;
+  margin-left: 220px;
+  font-weight:bold;
+}
+.text2{
+  position: absolute;
+  color: #e6a1ed;
+  font-size:35px;
+  margin-left: 420px;
+  font-weight: normal;
+  margin-top: 75px;
+}
+.text3{
+  width: 165px;
+  text-align: right;
+  color: #fff;
+  margin-top: 2px;
+}
+.text4{
+  position: absolute;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-top: 240px;
+  margin-left:210px;
+  font-size: 23px;
+  color: gray;
+  font-weight: weight;
+  font-family: 'Wallpoet', cursive;
+}
+.text5{
+  position: absolute;
+  font-size: 20px;
+  transform: rotate(-45deg);
+  transform-origin:left bottom ;
+  margin-top: 395px;
+  margin-left: 320px;
+  font-family: 'Rammetto One', cursive;
+  color: #FF9E87;
+}
+.text6{
+  position: absolute;
+  right: 45px;
+  transform-origin: right top;
+  transform: rotate(-90deg);
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.bar{
+  font-size: 0;
+  width:80px;
+  height: 227px;
+  transform-origin: left top;
+  transform: rotate(-45deg);
+  margin-left: 235px;
+  margin-top: 490px;
+}
+.lineArea{
+  position: relative;
+  width: 10%;
+  height: 100%; 
+  display:inline-block;
+}
+.line0{
+  position: absolute;
+  background-color: red;
+  height: calc(80% - 16px);
+  width: 50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line1{
+  position: absolute;
+  background-color: red;
+  height: calc(30% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line2{
+  position: absolute;
+  background-color: red;
+  height: calc(55% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line3{
+  position: absolute;
+  background-color: red;
+  height: calc(45% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line4{
+  position: absolute;
+  background-color: red;
+  height: calc(60% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line5{
+  position: absolute;
+  background-color: red;
+  height: calc(20% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line6{
+  position: absolute;
+  background-color: red;
+  height: calc(87% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line7{
+  position: absolute;
+  background-color: red;
+  height: calc(90% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line8{
+  position: absolute;
+  background-color: red;
+  height: calc(52% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.line9{
+  position: absolute;
+  background-color: red;
+  height: calc(88% - 16px);
+  width:50%;
+  bottom: 0;
+  margin-bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 16px;
+}
+.num{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  font-size:12px;
+}
